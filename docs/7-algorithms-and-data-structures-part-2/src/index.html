@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="stylesheet" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Graph Create</title>
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <section class="add-vertex-form">
+            <label for="input-from">From</label>
+            <input type="text" id="input-from" name="from" />
+            <label for="input-to">To</label>
+            <input type="text" id="input-to" name="to" />
+            <label for="input-distance">Distance</label>
+            <input id="input-distance" name="distance" type="number" />
+            <button id="add-vertex">Add Vertexes</button>
+        </section>
+        <hr>
+        <section class="adjacency-matrix">
+            <h3>Adjacency Matrix</h3>
+            <span id="vertical-header-list"></span>
+            <ul id="adjacencyMatrix-list"></ul>
+        </section>
+        <hr>
+        <section class="shortest-route">
+            <h3>Shortest Route</h3>
+            <label for="input-source">Source</label>
+            <select id="input-source"></select>
+            <ul id="shortestRoute-list"></ul>
+        </section>
+    </body>
+</html>
